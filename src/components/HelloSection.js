@@ -1,9 +1,10 @@
 import React from "react";
+import hImgTwo from "../assets/h-img2-v2.png";
 
 const HelloSection = () => {
   return (
     <div>
-      <section className="hero-it-solution ptb-120">
+      <section className="hero-it-solution home-background ptb-120">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-10">
@@ -24,25 +25,21 @@ const HelloSection = () => {
             </div>
             <div className="col-lg-6">
               <div className="hero-img position-relative mt-5 mt-lg-0">
-                <img
-                  src="assets/img/banner_image.png"
-                  alt="hero hero-it-solution "
-                  className="img-fluid"
-                />
+                <img src={hImgTwo} alt="" className="img-fluid" />
                 <div className="dots">
                   <img
                     src="assets/img/banner_dot.png"
-                    alt="dot"
+                    alt=""
                     className="dot-1"
                   />
                   <img
                     src="assets/img/banner_dot.png"
-                    alt="dot"
+                    alt=""
                     className="dot-2"
                   />
                 </div>
                 <div className="bubble">
-                  <span className="bubble-1"></span>
+                  {/* <span className="bubble-1"></span> */}
                   <span className="bubble-2"></span>
                 </div>
               </div>

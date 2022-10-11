@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/Logo-v2.png";
 
 const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
             >
               <img
                 src={Logo}
-                style={{ width: "200px", height: "70px" }}
+                style={{ width: "200px", height: "80px" }}
                 alt="logo"
                 className="img-fluid logo-color"
               />

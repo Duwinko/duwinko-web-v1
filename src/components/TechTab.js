@@ -1,4 +1,5 @@
 import React from "react";
+import hImgFour from "../assets/h-img4.png";
 
 const TechTab = () => {
   return (
@@ -54,11 +55,7 @@ const TechTab = () => {
                   <div className="row align-items-center">
                     <div className="col-md-6">
                       <div className="text-center mb-5 mb-lg-0">
-                        <img
-                          src="assets/img/tab_img1.png"
-                          alt=""
-                          className="img-fluid"
-                        />
+                        <img src={hImgFour} alt="" className="img-fluid" />
                       </div>
                     </div>
                     <div className="col-md-6">

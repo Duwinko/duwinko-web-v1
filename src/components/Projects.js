@@ -1,4 +1,5 @@
 import React from "react";
+import projectOne from "../assets/ProjectOne.png";
 
 const Projects = () => {
   return (
@@ -10,8 +11,9 @@ const Projects = () => {
               <div className="section-heading text-center">
                 <h2>Our Works</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perferendis, provident odio sit at quos pariatur.
+                  Creating and delivering projects on time are important
+                  elements in business, the list below contains the projects we
+                  did.
                 </p>
               </div>
             </div>
@@ -30,7 +32,7 @@ const Projects = () => {
                     <div className="single-portfolio-item mb-30">
                       <div className="portfolio-item-img">
                         <img
-                          src="assets/img/portfolio/portfolio1.jpg"
+                          src={projectOne}
                           alt="portfolio photo"
                           className="img-fluid"
                         />
@@ -40,12 +42,11 @@ const Projects = () => {
                               href="portfolio-single.html"
                               className="text-decoration-none text-white"
                             >
-                              Website Design Project
+                              Lebambe Saint Joseph
                             </a>
                           </h5>
                           <div className="categories">
-                            <span>Design,</span>
-                            <span>Web</span>
+                            <span>Web Application</span>
                           </div>
                         </div>
                       </div>
@@ -55,7 +56,7 @@ const Projects = () => {
                     <div className="single-portfolio-item mb-30">
                       <div className="portfolio-item-img">
                         <img
-                          src="assets/img/portfolio/portfolio2.jpg"
+                          src={projectOne}
                           alt="portfolio photo"
                           className="img-fluid"
                         />
@@ -65,12 +66,11 @@ const Projects = () => {
                               href="portfolio-single.html"
                               className="text-decoration-none text-white"
                             >
-                              Leafery Branding
+                              Lebambe Saint Joseph
                             </a>
                           </h5>
                           <div className="categories">
-                            <span>Branding,</span>
-                            <span>Logo</span>
+                            <span>Web Application</span>
                           </div>
                         </div>
                       </div>
@@ -80,7 +80,7 @@ const Projects = () => {
                     <div className="single-portfolio-item mb-30">
                       <div className="portfolio-item-img">
                         <img
-                          src="assets/img/portfolio/portfolio3.jpg"
+                          src={projectOne}
                           alt="portfolio photo"
                           className="img-fluid"
                         />
@@ -90,12 +90,11 @@ const Projects = () => {
                               href="portfolio-single.html"
                               className="text-decoration-none text-white"
                             >
-                              Information Architencure
+                              Lebambe Saint Joseph
                             </a>
                           </h5>
                           <div className="categories">
-                            <span>Branding,</span>
-                            <span>Logo</span>
+                            <span>Web Application</span>
                           </div>
                         </div>
                       </div>
@@ -105,7 +104,7 @@ const Projects = () => {
                     <div className="single-portfolio-item mb-30">
                       <div className="portfolio-item-img">
                         <img
-                          src="assets/img/portfolio/portfolio4.jpg"
+                          src={projectOne}
                           alt="portfolio photo"
                           className="img-fluid"
                         />
@@ -129,7 +128,7 @@ const Projects = () => {
                     <div className="single-portfolio-item mb-30">
                       <div className="portfolio-item-img">
                         <img
-                          src="assets/img/portfolio/portfolio5.jpg"
+                          src={projectOne}
                           alt="portfolio photo"
                           className="img-fluid"
                         />
@@ -139,12 +138,11 @@ const Projects = () => {
                               href="portfolio-single.html"
                               className="text-decoration-none text-white"
                             >
-                              Information Architencure
+                              Lebambe Saint Joseph
                             </a>
                           </h5>
                           <div className="categories">
-                            <span>Branding,</span>
-                            <span>Logo</span>
+                            <span>Web Application</span>
                           </div>
                         </div>
                       </div>
@@ -154,7 +152,7 @@ const Projects = () => {
                     <div className="single-portfolio-item mb-30">
                       <div className="portfolio-item-img">
                         <img
-                          src="assets/img/portfolio/portfolio6.jpg"
+                          src={projectOne}
                           alt="portfolio photo"
                           className="img-fluid"
                         />
@@ -164,11 +162,11 @@ const Projects = () => {
                               href="portfolio-single.html"
                               className="text-decoration-none text-white"
                             >
-                              Branding & Corporate Identity
+                              Lebambe Saint Joseph
                             </a>
                           </h5>
                           <div className="categories">
-                            <span>Branding,</span>
+                            <span>Web Application</span>
                           </div>
                         </div>
                       </div>

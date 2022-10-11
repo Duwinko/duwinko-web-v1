@@ -1,14 +1,15 @@
 import React from "react";
+import hImgOne from "../assets/h-img1.jpg";
 
 const AboutSection = () => {
   return (
     <div>
-      <section className="ptb-120">
+      <section className=" ptb-120">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-left text-lg-center mb-32 mb-lg-0">
-                <img src="assets/img/about.jpg" alt="" className="img-fluid" />
+                <img src={hImgOne} alt="" className="img-fluid" />
               </div>
             </div>
             <div className="col-lg-6">

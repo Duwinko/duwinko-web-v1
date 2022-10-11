@@ -9,11 +9,7 @@ const Services = () => {
             <div className="col-lg-6 col-md-10">
               <div className="section-heading text-center">
                 <h2>Services We Provide</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perferendis, provident odio sit at quos pariatur expedita
-                  molestiae perspiciatis sapiente nam fuga
-                </p>
+                <p>We are ready to provide the following services for you</p>
               </div>
             </div>
           </div>
@@ -31,8 +27,8 @@ const Services = () => {
                 <div className="service-info-wrap">
                   <h3 className="h5">Web Development</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perferendis
+                    We develop a very beautiful and amazing website with the
+                    best design and high performance
                   </p>
                 </div>
               </div>
@@ -50,8 +46,8 @@ const Services = () => {
                 <div className="service-info-wrap">
                   <h3 className="h5">App Development</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perferendis
+                    We provide a Mobile apps that can help you to run your
+                    business successfully
                   </p>
                 </div>
               </div>
@@ -67,10 +63,10 @@ const Services = () => {
                   />
                 </div>
                 <div className="service-info-wrap">
-                  <h3 className="h5">Data Sceurity</h3>
+                  <h3 className="h5"> MIS</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perferendis
+                    We build the best management information system that is very
+                    supportive to the business
                   </p>
                 </div>
               </div>
@@ -88,8 +84,8 @@ const Services = () => {
                 <div className="feature-info-wrap">
                   <h3 className="h5">UI/UX Design</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perferendis
+                    We provide the best and clear designs for both web and
+                    mobile applications
                   </p>
                 </div>
               </div>
@@ -105,10 +101,10 @@ const Services = () => {
                   />
                 </div>
                 <div className="feature-info-wrap">
-                  <h3 className="h5">Graphics Design</h3>
+                  <h3 className="h5">Project Analysis</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perferendis
+                    We work with clients to develop and analyse the project with
+                    the best ideas
                   </p>
                 </div>
               </div>
@@ -124,10 +120,10 @@ const Services = () => {
                   />
                 </div>
                 <div className="feature-info-wrap">
-                  <h3 className="h5">Digital Marketing</h3>
+                  <h3 className="h5">Computer Service Support</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perferendis
+                    We make all necessary computer services support to make your
+                    life better
                   </p>
                 </div>
               </div>

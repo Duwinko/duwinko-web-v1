@@ -1,16 +1,17 @@
 import React from "react";
+import contactImg from "../assets/contact-img.jpg";
 
 const ContactUs = () => {
   return (
     <div>
       <section className="contact-us-form pt-60 pb-120">
         <div className="container">
-          <div className="row justify-content-lg-between align-items-center">
+          <div className="text-center">
+            <h2>Reach Us</h2>
+            <p>Let us get in touch with you</p>
+          </div>
+          <div className="row justify-content-center align-items-center">
             <div className="col-lg-6 col-md-8">
-              <div className="section-heading">
-                <h2>Reach Us</h2>
-                <p>Let us get in touch with you</p>
-              </div>
               <form className="register-form">
                 <div className="row">
                   <div className="col-sm-6">
@@ -87,11 +88,7 @@ const ContactUs = () => {
             </div>
             <div className="col-lg-5 col-md-10">
               <div className="contact-us-img">
-                <img
-                  src="assets/img/contact-us-img-2.svg"
-                  alt="contact us"
-                  className="img-fluid"
-                />
+                <img src={contactImg} alt="contact us" className="img-fluid" />
               </div>
             </div>
           </div>
