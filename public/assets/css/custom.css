@@ -32,6 +32,52 @@
     border-radius: 50%;
 }
 
+.sussess-msg {
+    color: green;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgb(2, 145, 2, 0.15);
+}
+
+
+.loader {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #0294ff;
+    border-bottom-color: #b8d7ee;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-animation: rotation 1s linear infinite;
+    animation: rotation 1s linear infinite;
+    margin-right: 10px;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+
 @media(max-width: 780px) {
     .m-v-g-container {
         flex-direction: column;
