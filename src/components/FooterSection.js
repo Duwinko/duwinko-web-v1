@@ -18,7 +18,7 @@ const FooterSection = () => {
                       className="img-fluid logo-white"
                     />
                   </div>
-                  <p>Clients are our first priority</p>
+                  <p>Creating solitions for you on time is our priority</p>
                 </div>
               </div>
               <div className="col-md-12 col-lg-7 mt-4 mt-md-0 mt-lg-0">

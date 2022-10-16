@@ -1,4 +1,5 @@
 import React from "react";
+import userImg from "../assets/userImg.png";
 
 const Testimonial = () => {
   return (
@@ -28,8 +29,8 @@ const Testimonial = () => {
                   <div className="author d-flex">
                     <div className="author-img me-3">
                       <img
-                        src="assets/img/testimonial/author1.jpg"
-                        alt="author photo"
+                        src={userImg}
+                        alt=""
                         className="rounded-circle"
                         width="60"
                         height="60"

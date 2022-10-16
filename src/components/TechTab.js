@@ -87,7 +87,7 @@ const TechTab = () => {
                           href="#"
                           className="text-white link-with-icon text-decoration-none"
                         >
-                          More About Our Service
+                          More Info
                           <i className="fas fa-arrow-right"></i>
                         </a>
                       </div>

@@ -1,3 +1,39 @@
 .home-background {
     background-color: #eaeef0;
+    min-height: 100vh;
+}
+
+.m-v-g-container {
+    justify-content: space-between;
+}
+
+.about-card {
+    width: auto;
+    margin-right: 10px;
+}
+
+.about-content {
+    width: calc(100% - 70px);
+}
+
+.about-card p {
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+}
+
+.about-icon-container {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+@media(max-width: 780px) {
+    .m-v-g-container {
+        flex-direction: column;
+    }
 }

@@ -82,6 +82,46 @@ const AboutSection = () => {
               </div>
             </div>
           </div>
+          {/* Mission vision and goals */}
+          <div className="m-v-g-container d-flex align-items-center mt-5 pt-5">
+            <div className="about-card d-flex">
+              <div className="about-icon-container bg-primary text-light">
+                <i className="fa-solid fa-check"></i>
+              </div>
+              <div className="about-content">
+                <h4 className="h5 mb-3">Our Mission</h4>
+                <p>
+                  Our mission is to develop a software product that help
+                  decrease the failure rates of software projects that lead to
+                  the success of the companies.
+                </p>
+              </div>
+            </div>
+            <div className="about-card d-flex">
+              <div className="about-icon-container bg-primary text-light">
+                <i className="fa-solid fa-eye-low-vision"></i>
+              </div>
+              <div className="about-content">
+                <h4 className="h5 mb-3">Our Vision</h4>
+                <p>
+                  Our Vision is to provide software for businesses in order to
+                  lower the high failure rate that affects them globally.
+                </p>
+              </div>
+            </div>
+            <div className="about-card d-flex">
+              <div className="about-icon-container bg-primary text-light">
+                <i className="fa-solid fa-bullseye"></i>
+              </div>
+              <div className="about-content">
+                <h4 className="h5 mb-3">Our Goals</h4>
+                <p>
+                  Reduce the cost, effort, time, and risk of software projects
+                  in a proven and reliable way.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
