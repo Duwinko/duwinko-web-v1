@@ -3,7 +3,7 @@ import React from "react";
 const Services = () => {
   return (
     <div>
-      <section className="services-icon ptb-120">
+      <section className="services-icon ptb-120" id="services">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-10">

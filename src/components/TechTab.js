@@ -4,15 +4,15 @@ import hImgFour from "../assets/h-img4.png";
 const TechTab = () => {
   return (
     <div>
-      <section className="ptb-120 bg-dark">
+      <section className="ptb-120 bg-dark" id="tech">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-6">
               <div className="text-center">
-                <h2>We Build any Kind Of Technology</h2>
+                <h2>We Build all Kinds Of Technology</h2>
                 <p>
-                  The world is changing very fast because of technology, We
-                  truly the impact in that by building the best software
+                  The world is changing very fast because of technology. We can
+                  truly make an impact on that by building the best software.
                 </p>
               </div>
             </div>
@@ -65,9 +65,9 @@ const TechTab = () => {
                           for your software
                         </h2>
                         <p>
-                          We provide the best management system for business. We
-                          share the ideas with clients to provide the beautiful
-                          software product by prioritizing clients' needs
+                          We provide the best management system for businesses.
+                          We share ideas with clients to provide a beautiful
+                          software product by prioritizing clients' needs.
                         </p>
                         <ul className="list-unstyled">
                           <li>

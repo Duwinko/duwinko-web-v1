@@ -18,7 +18,7 @@ const FooterSection = () => {
                       className="img-fluid logo-white"
                     />
                   </div>
-                  <p>Creating solitions for you on time is our priority</p>
+                  <p>Creating solutions for you on time is our priority.</p>
                 </div>
               </div>
               <div className="col-md-12 col-lg-7 mt-4 mt-md-0 mt-lg-0">
@@ -28,22 +28,22 @@ const FooterSection = () => {
                       <h3>Primary Links</h3>
                       <ul className="list-unstyled footer-nav-list mb-lg-0">
                         <li>
-                          <a href="" className="text-decoration-none">
+                          <a href="#home" className="text-decoration-none">
                             Home
                           </a>
                         </li>
                         <li>
-                          <a href="" className="text-decoration-none">
+                          <a href="#about" className="text-decoration-none">
                             About Us
                           </a>
                         </li>
                         <li>
-                          <a href="" className="text-decoration-none">
+                          <a href="#services" className="text-decoration-none">
                             Services
                           </a>
                         </li>
                         <li>
-                          <a href="" className="text-decoration-none">
+                          <a href="#works" className="text-decoration-none">
                             Our Works
                           </a>
                         </li>
@@ -107,7 +107,7 @@ const FooterSection = () => {
                             </a>
                           </li>
                           <li className="">
-                            <a href="#">
+                            <a href="https://github.com/duwinko" target="blank">
                               <i className="fab fa-github"></i>
                             </a>
                           </li>

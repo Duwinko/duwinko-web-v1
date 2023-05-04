@@ -4,7 +4,10 @@ import userImg from "../assets/userImg.png";
 const Testimonial = () => {
   return (
     <div>
-      <section className="testimonial-section bg-light pb-120">
+      <section
+        className="testimonial-section bg-light pb-120"
+        id="testimonials"
+      >
         <div className="container">
           <div className="row justify-content-center align-content-center">
             <div className="col-md-10 col-lg-6">
