@@ -4,7 +4,7 @@ import projectOne from "../assets/ProjectOne.png";
 const Projects = () => {
   return (
     <div>
-      <section className="portfolio bg-light ptb-120">
+      <section className="portfolio bg-light ptb-120" id="works">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-10">
@@ -12,8 +12,8 @@ const Projects = () => {
                 <h2>Our Works</h2>
                 <p>
                   Creating and delivering projects on time are important
-                  elements in business, the list below contains the projects we
-                  did.
+                  elements in business; the list below contains the projects
+                  we did.
                 </p>
               </div>
             </div>

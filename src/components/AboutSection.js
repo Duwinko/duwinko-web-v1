@@ -4,7 +4,7 @@ import hImgOne from "../assets/h-img1.jpg";
 const AboutSection = () => {
   return (
     <div>
-      <section className=" ptb-120">
+      <section className=" ptb-120" id="about">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -21,7 +21,8 @@ const AboutSection = () => {
                 </h2>
                 <p>
                   Duwinko's main target is to be the clients' first choice by
-                  giving them the best software product that match their needs
+                  giving them the best software product that matches their
+                  needs.
                 </p>
                 <ul className="list-unstyled d-flex flex-wrap list-two-col mt-4 mb-4">
                   <li className="py-1">
@@ -91,9 +92,9 @@ const AboutSection = () => {
               <div className="about-content">
                 <h4 className="h5 mb-3">Our Mission</h4>
                 <p>
-                  Our mission is to develop a software product that help
-                  decrease the failure rates of software projects that lead to
-                  the success of the companies.
+                  Our mission is to develop a software product that helps
+                  decrease the failure rates of software projects and leads to
+                  the success of companies.
                 </p>
               </div>
             </div>
