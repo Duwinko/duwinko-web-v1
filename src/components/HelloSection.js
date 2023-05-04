@@ -6,7 +6,7 @@ const HelloSection = () => {
     <div>
       <section className="hero-it-solution home-background ptb-120" id="home">
         <div className="container">
-          <div className="row align-items-center">
+          <div className="row align-items-center pt-4">
             <div className="col-lg-6 col-md-10">
               <div className="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
                 <h1 className="fw-bold display-5">
