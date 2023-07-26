@@ -4,7 +4,7 @@ import hImgTwo from "../assets/h-img2-v2.png";
 const HelloSection = () => {
   return (
     <div>
-      <section className="hero-it-solution home-background ptb-120" id="home">
+      <section className="hero-it-solution home-background ptb-120 d-flex align-items-center" id="home">
         <div className="container">
           <div className="row align-items-center pt-4">
             <div className="col-lg-6 col-md-10">
