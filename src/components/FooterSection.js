@@ -60,23 +60,17 @@ const FooterSection = () => {
                       <h3>Other Links</h3>
                       <ul className="list-unstyled footer-nav-list mb-lg-0">
                         <li>
-                          <a
-                            href="pricing.html"
-                            className="text-decoration-none"
-                          >
+                          <a href="#about" className="text-decoration-none">
                             Mission
                           </a>
                         </li>
                         <li>
-                          <a href="blog.html" className="text-decoration-none">
+                          <a href="#about" className="text-decoration-none">
                             Vission
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="contact-us.html"
-                            className="text-decoration-none"
-                          >
+                          <a href="#about" className="text-decoration-none">
                             Value
                           </a>
                         </li>
@@ -125,7 +119,7 @@ const FooterSection = () => {
             <div className="row justify-content-between align-items-center">
               <div className="col-md-7 col-lg-7">
                 <div className="copyright-text">
-                  <p className="mb-lg-0 mb-md-0">&copy; 2022 Duwinko</p>
+                  <p className="mb-lg-0 mb-md-0">&copy; 2023 Duwinko</p>
                 </div>
               </div>
             </div>

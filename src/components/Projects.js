@@ -1,5 +1,9 @@
 import React from "react";
 import projectOne from "../assets/ProjectOne.png";
+import projectTwo from "../assets/projectTwo.png";
+import ProjectThree from "../assets/projectThree.png";
+import ProjectFour from "../assets/projectFour.png";
+import ProjectFive from "../assets/projectFive.png";
 
 const Projects = () => {
   return (
@@ -39,6 +43,7 @@ const Projects = () => {
                         <div className="portfolio-info">
                           <h5>
                             <a
+                              target="_blank"
                               href="portfolio-single.html"
                               className="text-decoration-none text-white"
                             >
@@ -56,17 +61,18 @@ const Projects = () => {
                     <div className="single-portfolio-item mb-30">
                       <div className="portfolio-item-img">
                         <img
-                          src={projectOne}
+                          src={projectTwo}
                           alt="portfolio photo"
                           className="img-fluid"
                         />
                         <div className="portfolio-info">
                           <h5>
                             <a
-                              href="portfolio-single.html"
+                              target="_blank"
+                              href="https://www.niyorwandacad.com/"
                               className="text-decoration-none text-white"
                             >
-                              Lebambe Saint Joseph
+                              Construction company website
                             </a>
                           </h5>
                           <div className="categories">
@@ -80,17 +86,43 @@ const Projects = () => {
                     <div className="single-portfolio-item mb-30">
                       <div className="portfolio-item-img">
                         <img
-                          src={projectOne}
+                          src={ProjectThree}
                           alt="portfolio photo"
                           className="img-fluid"
                         />
                         <div className="portfolio-info">
                           <h5>
                             <a
-                              href="portfolio-single.html"
+                              target="_blank"
+                              href="https://www.samproltd.com/"
                               className="text-decoration-none text-white"
                             >
-                              Lebambe Saint Joseph
+                              Sampro website
+                            </a>
+                          </h5>
+                          <div className="categories">
+                            <span>web Application</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4">
+                    <div className="single-portfolio-item mb-30">
+                      <div className="portfolio-item-img">
+                        <img
+                          src={ProjectFour}
+                          alt="portfolio photo"
+                          className="img-fluid"
+                        />
+                        <div className="portfolio-info">
+                          <h5>
+                            <a
+                              target="_blank"
+                              href="https://dashboard.samproltd.com/"
+                              className="text-decoration-none text-white"
+                            >
+                              Samproltd dashboard
                             </a>
                           </h5>
                           <div className="categories">
@@ -104,69 +136,22 @@ const Projects = () => {
                     <div className="single-portfolio-item mb-30">
                       <div className="portfolio-item-img">
                         <img
-                          src={projectOne}
+                          src={ProjectFive}
                           alt="portfolio photo"
                           className="img-fluid"
                         />
                         <div className="portfolio-info">
                           <h5>
                             <a
+                              target="_blank"
                               href="portfolio-single.html"
                               className="text-decoration-none text-white"
                             >
-                              User Interface Design
+                              Figma design
                             </a>
                           </h5>
                           <div className="categories">
-                            <span>Design</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-4">
-                    <div className="single-portfolio-item mb-30">
-                      <div className="portfolio-item-img">
-                        <img
-                          src={projectOne}
-                          alt="portfolio photo"
-                          className="img-fluid"
-                        />
-                        <div className="portfolio-info">
-                          <h5>
-                            <a
-                              href="portfolio-single.html"
-                              className="text-decoration-none text-white"
-                            >
-                              Lebambe Saint Joseph
-                            </a>
-                          </h5>
-                          <div className="categories">
-                            <span>Web Application</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-4">
-                    <div className="single-portfolio-item mb-30">
-                      <div className="portfolio-item-img">
-                        <img
-                          src={projectOne}
-                          alt="portfolio photo"
-                          className="img-fluid"
-                        />
-                        <div className="portfolio-info">
-                          <h5>
-                            <a
-                              href="portfolio-single.html"
-                              className="text-decoration-none text-white"
-                            >
-                              Lebambe Saint Joseph
-                            </a>
-                          </h5>
-                          <div className="categories">
-                            <span>Web Application</span>
+                            <span>Figma design</span>
                           </div>
                         </div>
                       </div>
