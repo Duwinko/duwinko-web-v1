@@ -43,6 +43,7 @@ const Projects = () => {
                         <div className="portfolio-info">
                           <h5>
                             <a
+                              target="_blank"
                               href="portfolio-single.html"
                               className="text-decoration-none text-white"
                             >
@@ -67,6 +68,7 @@ const Projects = () => {
                         <div className="portfolio-info">
                           <h5>
                             <a
+                              target="_blank"
                               href="https://www.niyorwandacad.com/"
                               className="text-decoration-none text-white"
                             >
@@ -91,6 +93,7 @@ const Projects = () => {
                         <div className="portfolio-info">
                           <h5>
                             <a
+                              target="_blank"
                               href="https://www.samproltd.com/"
                               className="text-decoration-none text-white"
                             >
@@ -115,6 +118,7 @@ const Projects = () => {
                         <div className="portfolio-info">
                           <h5>
                             <a
+                              target="_blank"
                               href="https://dashboard.samproltd.com/"
                               className="text-decoration-none text-white"
                             >
@@ -139,6 +143,7 @@ const Projects = () => {
                         <div className="portfolio-info">
                           <h5>
                             <a
+                              target="_blank"
                               href="portfolio-single.html"
                               className="text-decoration-none text-white"
                             >
