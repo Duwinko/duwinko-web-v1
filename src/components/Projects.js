@@ -44,7 +44,7 @@ const Projects = () => {
                           <h5>
                             <a
                               target="_blank"
-                              href="portfolio-single.html"
+                              href=""
                               className="text-decoration-none text-white"
                             >
                               Lebambe Saint Joseph
@@ -144,7 +144,7 @@ const Projects = () => {
                           <h5>
                             <a
                               target="_blank"
-                              href="portfolio-single.html"
+                              href=""
                               className="text-decoration-none text-white"
                             >
                               Figma design
