@@ -120,7 +120,7 @@ const FooterSection = () => {
               <div className="col-md-7 col-lg-7">
                 <div className="copyright-text">
                   <p className="mb-lg-0 mb-md-0">
-                    &copy; @{new Date().getFullYear()} Duwinko
+                    &copy; {new Date().getFullYear()} Duwinko
                   </p>
                 </div>
               </div>
