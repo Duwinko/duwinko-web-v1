@@ -119,7 +119,9 @@ const FooterSection = () => {
             <div className="row justify-content-between align-items-center">
               <div className="col-md-7 col-lg-7">
                 <div className="copyright-text">
-                  <p className="mb-lg-0 mb-md-0">&copy; 2023 Duwinko</p>
+                  <p className="mb-lg-0 mb-md-0">
+                    &copy; @{new Date().getFullYear()} Duwinko
+                  </p>
                 </div>
               </div>
             </div>
