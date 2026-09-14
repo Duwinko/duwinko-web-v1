@@ -13,7 +13,7 @@ export default async function ContactPage() {
   const { contactImage } = await getContent();
 
   return (
-    <div className="container-site grid gap-10 py-16 md:grid-cols-2 md:py-24">
+    <div className="container-site grid  items-end gap-10 py-16 md:grid-cols-2 md:gap-20 md:py-24">
       <div>
         <PageIntro
           eyebrow="Contact"
