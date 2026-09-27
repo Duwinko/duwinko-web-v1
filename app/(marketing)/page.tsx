@@ -1,13 +1,28 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
 import { getContent } from "@/lib/content-store";
+import { pageMetadata, webPageJsonLd } from "@/lib/seo";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { SectionRule } from "@/components/marketing/SectionRule";
 import { ContactForm } from "./ContactForm";
 import { MediaFrame } from "@/components/marketing/MediaFrame";
 import { cn } from "@/lib/cn";
 
+export async function generateMetadata(): Promise<Metadata> {
+  const { site, hero } = await getContent();
+  return pageMetadata({
+    title: `${site.name} — Software, systems, and AI`,
+    description: hero.body,
+    path: "/",
+    image: hero.image,
+    imageAlt: "Software product work from Duwinko",
+    absoluteTitle: true,
+  });
+}
+
 export default async function HomePage() {
-  const { about, hero, partners, process, processImage, projects, services, testimonials } =
+  const { about, hero, partners, process, processImage, projects, services, testimonials, site } =
     await getContent();
   const featuredWork = projects.filter((item) => item.featured);
   const moreWork = projects.filter((item) => !item.featured);
@@ -16,6 +31,13 @@ export default async function HomePage() {
   const quote = testimonials.find((item) => item.featured) ?? testimonials[0];
   return (
     <div>
+      <JsonLd
+        data={webPageJsonLd({
+          title: `${site.name} — Software, systems, and AI`,
+          description: hero.body,
+          path: "/",
+        })}
+      />
       <section className="hero-field">
         <div className="container-site pb-16 pt-16 md:pb-24 md:pt-24">
           <div className="mx-auto max-w-4xl text-center">
@@ -85,7 +107,7 @@ export default async function HomePage() {
                 <a
                   href={partner.href}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="glass-panel flex min-h-24 items-center justify-center rounded-2xl px-4 text-center text-sm font-semibold tracking-wide transition-colors hover:border-primary/50"
                 >
                   {partner.name}
@@ -120,7 +142,7 @@ export default async function HomePage() {
         <div className="glass-panel overflow-hidden rounded-3xl">
           <Image
             src={about.image}
-            alt="Engineering work at Duwinko"
+              alt="Engineering workspace at Duwinko"
             width={900}
             height={720}
             className="h-full w-full object-cover"
@@ -195,7 +217,7 @@ export default async function HomePage() {
               )}
             >
               <Link href={`/work/${project.slug}`} className="block">
-                <MediaFrame src={project.image} alt={project.title} />
+                <MediaFrame src={project.image} alt={`${project.title} — ${project.category}`} />
               </Link>
               <div>
                 <p className="text-sm text-primary">{project.category}</p>
@@ -219,7 +241,9 @@ export default async function HomePage() {
           {moreWork.map((project) => (
             <li key={project.id} className="flex flex-col gap-2 py-5 sm:flex-row sm:items-center sm:justify-between">
               <div>
-                <p className="font-medium">{project.title}</p>
+                <Link href={`/work/${project.slug}`} className="font-medium hover:text-primary">
+                  {project.title}
+                </Link>
                 <p className="text-sm text-neutral">{project.category}</p>
               </div>
               <Link href={`/work/${project.slug}`} className="link link-primary text-sm">
@@ -248,7 +272,7 @@ export default async function HomePage() {
           <div className="glass-panel overflow-hidden rounded-3xl">
             <Image
               src={processImage}
-              alt="Product and systems work"
+              alt="Layers of product and systems work"
               width={800}
               height={640}
               className="h-auto w-full object-cover"

@@ -1,7 +1,16 @@
+import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { getAdminSession } from "@/lib/auth";
 import { LoginForm } from "./LoginForm";
 import { ThemeToggle } from "@/components/theme/ThemeToggle";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
+  title: "Dashboard sign in",
+  description: "Staff access to the Duwinko dashboard.",
+  path: "/dashboard/login",
+  index: false,
+});
 
 export const dynamic = "force-dynamic";
 

@@ -1,24 +1,43 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { getContent } from "@/lib/content-store";
+import { pageMetadata, webPageJsonLd } from "@/lib/seo";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { PageIntro } from "@/components/marketing/PageIntro";
 
-export const metadata: Metadata = {
-  title: "About",
-  description: "Engineering teams that finish the work.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const { about } = await getContent();
+  return pageMetadata({
+    title: "About Duwinko Software Ltd.",
+    description: about.body,
+    path: "/about",
+    image: about.image,
+    imageAlt: "Engineering workspace at Duwinko",
+  });
+}
 
 export default async function AboutPage() {
   const { about } = await getContent();
 
   return (
     <div className="container-site py-16 md:py-24">
-      <PageIntro eyebrow="About" title={about.title} body={about.body} />
+      <JsonLd
+        data={webPageJsonLd({
+          title: "About Duwinko Software Ltd.",
+          description: about.body,
+          path: "/about",
+          type: "AboutPage",
+        })}
+      />
+      <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "About" }]} />
+      <PageIntro className="mt-4" eyebrow="About" title={about.title} body={about.body} />
       <div className="mt-12 grid gap-8 lg:grid-cols-2">
         <div className="glass-panel overflow-hidden rounded-3xl">
           <Image
             src={about.image}
-            alt="Duwinko engineering"
+            alt="Engineering workspace at Duwinko"
             width={1000}
             height={800}
             className="h-full w-full object-cover"
@@ -40,6 +59,17 @@ export default async function AboutPage() {
           </article>
         ))}
       </div>
+      <p className="mt-12 text-sm text-neutral">
+        See{" "}
+        <Link href="/services" className="link link-primary">
+          what we build
+        </Link>{" "}
+        or{" "}
+        <Link href="/contact" className="link link-primary">
+          start a project
+        </Link>
+        .
+      </p>
     </div>
   );
 }
