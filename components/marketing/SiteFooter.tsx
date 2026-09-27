@@ -36,22 +36,27 @@ export async function SiteFooter() {
           <p className="text-sm font-semibold">Company</p>
           <ul className="mt-4 space-y-2 text-sm">
             <li>
-              <a href={site.social.linkedin} className="link link-hover" target="_blank" rel="noreferrer">
+              <a href={`mailto:${site.email}`} className="link link-hover">
+                {site.email}
+              </a>
+            </li>
+            <li>
+              <a href={site.social.linkedin} className="link link-hover" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
             </li>
             <li>
-              <a href={site.social.x} className="link link-hover" target="_blank" rel="noreferrer">
+              <a href={site.social.x} className="link link-hover" target="_blank" rel="noopener noreferrer">
                 X
               </a>
             </li>
             <li>
-              <a href={site.social.instagram} className="link link-hover" target="_blank" rel="noreferrer">
+              <a href={site.social.instagram} className="link link-hover" target="_blank" rel="noopener noreferrer">
                 Instagram
               </a>
             </li>
             <li>
-              <a href={site.social.github} className="link link-hover" target="_blank" rel="noreferrer">
+              <a href={site.social.github} className="link link-hover" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
             </li>

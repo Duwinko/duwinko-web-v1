@@ -1,20 +1,37 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getContent } from "@/lib/content-store";
+import { pageMetadata, webPageJsonLd } from "@/lib/seo";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { PageIntro } from "@/components/marketing/PageIntro";
 import { cn } from "@/lib/cn";
 
-export const metadata: Metadata = {
-  title: "Services",
-  description: "Web, mobile, internal systems, design, delivery, support — and AI inside products that already have a job.",
-};
+const description =
+  "Web, mobile, internal systems, design, delivery, support — and AI inside products that already have a job.";
+
+export const metadata: Metadata = pageMetadata({
+  title: "Software and systems services",
+  description,
+  path: "/services",
+});
 
 export default async function ServicesPage() {
   const { services } = await getContent();
 
   return (
     <div className="container-site py-16 md:py-24">
+      <JsonLd
+        data={webPageJsonLd({
+          title: "Software and systems services",
+          description,
+          path: "/services",
+          type: "CollectionPage",
+        })}
+      />
+      <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Services" }]} />
       <PageIntro
+        className="mt-4"
         eyebrow="Services"
         title="What we actually build"
         body="Engineering is the core. AI is a capability we add when it changes how the product works."
