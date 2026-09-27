@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "ch-homepage-centering",
+    "cursor/site-seo",
+    "design-test",
+    "fix/projectPage",
+    "ft-google-analytics-v1",
+    "gramar-collection",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "ch-homepage-centering": "main",
+    "cursor/site-seo": "main",
+    "design-test": "main",
+    "fix/projectPage": "main",
+    "ft-google-analytics-v1": "main",
+    "gramar-collection": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "ch-homepage-centering",
+    "cursor/site-seo",
+    "design-test",
+    "fix/projectPage",
+    "ft-google-analytics-v1",
+    "gramar-collection",
+    "origin"
+  ]
+}
